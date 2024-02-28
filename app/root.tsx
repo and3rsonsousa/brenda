@@ -10,6 +10,10 @@ import { LinksFunction } from "@remix-run/node";
 
 export const links: LinksFunction = () => [
 	{ rel: "stylesheet", href: stylesheet },
+	{
+		rel: "icon",
+		href: "/ico.png",
+	},
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {

@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import { Instagram } from "lucide-react";
 
 export const meta: MetaFunction = () => {
 	return [
