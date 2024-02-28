@@ -2,8 +2,12 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: "New Remix App" },
-		{ name: "description", content: "Welcome to Remix!" },
+		{ title: "Brenda Vasconcelos - Pediatra em Sobral e Massapê." },
+		{
+			name: "description",
+			content:
+				"Agende suas consultas pediátricas com a Dra. Brenda Vasconcelos em Sobral, Massapê ou domiciliar.",
+		},
 	];
 };
 
