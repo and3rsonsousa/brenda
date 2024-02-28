@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+	@apply px-7 py-4 block rounded-2xl outline-none  ring-2 ring-offset-2 ring-transparent ring-offset-slate-50;
+}
