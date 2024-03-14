@@ -2,11 +2,11 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: "Brenda Vasconcelos - Pediatra em Sobral e Massapê." },
+		{ title: "Brenda Vasconcelos - Pediatra em Sobral, Ipu e Massapê." },
 		{
 			name: "description",
 			content:
-				"Agende suas consultas pediátricas com a Dra. Brenda Vasconcelos em Sobral, Massapê ou domiciliar.",
+				"Agende suas consultas pediátricas com a Dra. Brenda Vasconcelos em Sobral, Massapê, Ipu ou domiciliar.",
 		},
 	];
 };
@@ -60,6 +60,14 @@ export default function Index() {
 						className="link bg-sky-100 focus:ring-sky-300 hover:bg-sky-200 text-sky-700"
 					>
 						Agendar Consulta na SmartMed
+					</a>
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://wa.me/5588998551739?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Brenda."
+						className="link bg-lime-100 focus:ring-lime-300 hover:bg-lime-200 text-lime-700"
+					>
+						Agendar Consulta no HTC ( Ipu-CE )
 					</a>
 				</div>
 
