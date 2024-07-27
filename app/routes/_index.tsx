@@ -61,6 +61,20 @@ export default function Index() {
 					>
 						Agendar Consulta na SmartMed
 					</a>
+
+					<div className="mt-4 text-gray-500">
+						Baixe gratuitamente o meu Ebook.
+					</div>
+
+					<a
+						target="_blank"
+						rel="noreferrer"
+						download
+						href="/manual-dos-produtos-de-bebe.pdf"
+						className="link bg-violet-600 focus:ring-violet-700 hover:bg-violet-200 text-rose-200 font-semibold tracking-tight text-lg"
+					>
+						Manual dos produtos do bebê.
+					</a>
 					{/* <a
 						target="_blank"
 						rel="noreferrer"
