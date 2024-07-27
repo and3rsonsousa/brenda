@@ -87,7 +87,7 @@ export default function Index() {
 
 				<div className="text-xs text-slate-500 tracking-tight">
 					© Dra. Brenda Bezerra Vasconcelos <br />
-					CRM 22.101
+					CRM 22.101 RQE 16.278
 				</div>
 			</div>
 		</div>
