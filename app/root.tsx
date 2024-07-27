@@ -1,4 +1,5 @@
 import stylesheet from "~/tailwind.css?url";
+import { Analytics } from "@vercel/analytics/react";
 import {
 	Links,
 	Meta,
@@ -30,6 +31,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 			</head>
 			<body className="antialiased">
 				{children}
+				<Analytics />
 				<ScrollRestoration />
 				<Scripts />
 			</body>
