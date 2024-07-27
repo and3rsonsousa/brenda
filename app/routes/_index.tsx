@@ -71,7 +71,7 @@ export default function Index() {
 						rel="noreferrer"
 						download
 						href="/manual-dos-produtos-de-bebe.pdf"
-						className="link bg-violet-600 focus:ring-violet-700 hover:bg-violet-200 text-rose-200 font-semibold tracking-tight text-lg"
+						className="link bg-violet-600 focus:ring-violet-700 hover:bg-violet-800 text-rose-200 font-semibold tracking-tight text-lg"
 					>
 						Manual dos produtos do bebê.
 					</a>
