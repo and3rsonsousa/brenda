@@ -70,7 +70,8 @@ export default function Index() {
 						target="_blank"
 						rel="noreferrer"
 						download
-						href="/manual-dos-produtos-de-bebe.pdf"
+						href="/download"
+						// href="/manual-dos-produtos-de-bebe.pdf"
 						className="link bg-violet-600 focus:ring-violet-700 hover:bg-violet-800 text-rose-200 font-semibold tracking-tight text-lg"
 					>
 						Manual dos produtos do bebê.
