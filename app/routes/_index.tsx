@@ -12,12 +12,6 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-	console.log(
-		encodeURI(
-			"https://wa.me/5588992270922?text=Olá, Gostaria de agendar uma CONSULTA DOMICILIAR com a Dra. Brenda."
-		)
-	);
-
 	return (
 		<div className="min-h-dvh bg-slate-50 grid place-content-center">
 			<div className="max-w-96 p-8 rounded-xl text-center">
