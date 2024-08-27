@@ -48,7 +48,9 @@ export default function Index() {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://wa.me/5588992270922?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Brenda."
+						href={encodeURI(
+							`https://wa.me/5588992630993?text=Olá, gostaria de agendar uma consulta com a Dra. Brenda.`
+						)}
 						className="link bg-pink-100 focus:ring-pink-300 hover:bg-pink-200 text-pink-700"
 					>
 						Agendar Consulta na Clínica Dengo
@@ -56,7 +58,9 @@ export default function Index() {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://wa.me/5588997925279?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Brenda."
+						href={encodeURI(
+							`https://wa.me/5588997925279?text=Olá, gostaria de agendar uma consulta com a Dra. Brenda.`
+						)}
 						className="link bg-sky-100 focus:ring-sky-300 hover:bg-sky-200 text-sky-700"
 					>
 						Agendar Consulta na SmartMed
@@ -71,19 +75,10 @@ export default function Index() {
 						rel="noreferrer"
 						download
 						href="/download"
-						// href="/manual-dos-produtos-de-bebe.pdf"
 						className="link bg-violet-600 focus:ring-violet-700 hover:bg-violet-800 text-rose-200 font-semibold tracking-tight text-lg"
 					>
 						Manual dos produtos do bebê.
 					</a>
-					{/* <a
-						target="_blank"
-						rel="noreferrer"
-						href="https://wa.me/5588998551739?text=Ol%C3%A1,%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Brenda."
-						className="link bg-lime-100 focus:ring-lime-300 hover:bg-lime-200 text-lime-700"
-					>
-						Agendar Consulta no HTC ( Ipu-CE )
-					</a> */}
 				</div>
 
 				<div className="text-xs text-slate-500 tracking-tight">
