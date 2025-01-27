@@ -49,7 +49,7 @@ export default function Index() {
 					>
 						Agendar Consulta na Clínica Dengo
 					</a>
-					<a
+					{/* <a
 						target="_blank"
 						rel="noreferrer"
 						href={encodeURI(
@@ -58,7 +58,7 @@ export default function Index() {
 						className="link bg-sky-100 focus:ring-sky-300 hover:bg-sky-200 text-sky-700"
 					>
 						Agendar Consulta na SmartMed
-					</a>
+					</a> */}
 
 					<div className="mt-4 text-gray-500">
 						Baixe gratuitamente o meu Ebook.
